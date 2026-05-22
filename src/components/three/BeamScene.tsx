@@ -6,8 +6,7 @@ import FloatingParticles from "./FloatingParticles";
 
 export default function BeamScene() {
   return (
-    <div className="relative w-full h-full">
-
+<div className="absolute inset-0 w-full h-full">
       {/* COLOR PICKER */}
       <div
         className="
@@ -54,6 +53,7 @@ export default function BeamScene() {
 
       {/* THREE CANVAS */}
       <Canvas
+  className="!absolute inset-0"
   dpr={[1, 2]}
   gl={{
     alpha: true,
