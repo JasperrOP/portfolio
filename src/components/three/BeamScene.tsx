@@ -66,7 +66,6 @@ export default function BeamScene() {
 >
   <BeamShader />
   <FloatingParticles />
-  
 </Canvas>
     </div>
   );
